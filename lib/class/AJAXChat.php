@@ -771,7 +771,7 @@ class AJAXChat {
 			}
 
 		} else {
-			include("MOD_GrammarNazi.php");
+			include("grammar_nazi.php");
 			if ($text == NULL) {
 				return false;
 			}
